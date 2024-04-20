@@ -22,13 +22,11 @@ const HeroSection = () => {
             <br></br>
             <TypeAnimation
               sequence={[
-                "Judy",
+                "Julio Louzano",
                 1000,
-                "Web Developer",
+                "Full-Stack Dev",
                 1000,
-                "Mobile Developer",
-                1000,
-                "UI/UX Designer",
+                "Based in Ireland",
                 1000,
               ]}
               wrapper="span"
@@ -37,8 +35,10 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#ADB7BE] text-base sm:text-lg mb-6 lg:text-xl">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
-            voluptuous.
+            I am a Full-Stack Developer based in Ireland. I love to code and
+            build web applications that are fast, responsive, and user-friendly.
+            I am passionate about learning new technologies and solving complex
+            problems.
           </p>
           <div>
             <Link
