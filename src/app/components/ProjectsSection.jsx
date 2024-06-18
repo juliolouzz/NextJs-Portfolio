@@ -38,7 +38,7 @@ const projectsData = [
     title: "project 4",
     description: "Project 4 description",
     image: "/images/projects/4.png",
-    tag: ["All", "Mobile"],
+    tag: ["All", "In-progress"],
     gitUrl: "/",
     previewUrl: "/",
   },
@@ -98,8 +98,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="Mobile"
-          isSelected={tag === "Mobile"}
+          name="In-progress"
+          isSelected={tag === "In-progress"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
