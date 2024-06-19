@@ -18,7 +18,8 @@ const achievementsList = [
   {
     prefix: "~",
     metric: "Hours of Coding",
-    value: "1460+",
+    value: "1460",
+    postfix: "+",
   },
   {
     metric: "Happy Clients",

@@ -7,45 +7,47 @@ import { motion, useInView } from "framer-motion";
 const projectsData = [
   {
     id: 1,
+    title: "tabnews Clone",
+    description:
+      "Implementation of https://www.tabnews.com.br/, to reproduce and learn concepts with curso.dev",
+    image: "/images/projects/1.png",
+    tag: ["All", "Web", "Ongoing"],
+    gitUrl: "https://github.com/juliolouzz/clone-tabnews",
+    previewUrl: "https://clone-tabnews-nine-lemon.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "Static Site Generator",
+    description:
+      "This project is a static site generator written in Python. It takes Markdown content and converts it into HTML, copying static assets and applying templates to create a fully functional static website.",
+    image: "/images/projects/gif_preview_static_site.gif",
+    tag: ["All", "Web"],
+    gitUrl: "https://github.com/juliolouzz/Static-Site-Generator",
+    previewUrl: "https://github.com/juliolouzz/Static-Site-Generator",
+  },
+  {
+    id: 3,
     title: "GreenJet Airlines Bootstrap",
     description:
       "A project made for the National college of Ireland using Bootstrap and JavaScript. It is a responsive website for an airline company. with a few animations and transitions.",
-    image: "/images/projects/1.png",
+    image: "/images/projects/3.png",
     tag: ["All", "Web"],
     gitUrl: "https://github.com/juliolouzz/GreenJet-Bootstrap",
     previewUrl: "https://juliolouzz.github.io/GreenJet-Bootstrap/",
   },
   {
-    id: 2,
-    title: "Project 2",
-    description: "Project 2 description",
-    image: "/images/projects/2.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
-    id: 3,
-    title: "Project 3",
-    description: "Project 3 description",
-    image: "/images/projects/3.png",
-    tag: ["All", "Web"],
-    gitUrl: "/",
-    previewUrl: "/",
-  },
-  {
     id: 4,
-    title: "project 4",
-    description: "Project 4 description",
+    title: "To be added",
+    description: "description",
     image: "/images/projects/4.png",
-    tag: ["All", "In-progress"],
+    tag: ["All", "Ongoing"],
     gitUrl: "/",
     previewUrl: "/",
   },
   {
     id: 5,
-    title: "Porject 5",
-    description: "Project 5 description",
+    title: "To be added",
+    description: "description",
     image: "/images/projects/5.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -53,8 +55,8 @@ const projectsData = [
   },
   {
     id: 6,
-    title: "Project 6",
-    description: "Project 6 description",
+    title: "To be added",
+    description: "description",
     image: "/images/projects/6.png",
     tag: ["All", "Web"],
     gitUrl: "/",
@@ -98,8 +100,8 @@ const ProjectsSection = () => {
         />
         <ProjectTag
           onClick={handleTagChange}
-          name="In-progress"
-          isSelected={tag === "In-progress"}
+          name="Ongoing"
+          isSelected={tag === "Ongoing"}
         />
       </div>
       <ul ref={ref} className="grid md:grid-cols-3 gap-8 md:gap-12">
