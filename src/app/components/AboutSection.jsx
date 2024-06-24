@@ -36,8 +36,36 @@ const TAB_DATA = [
     id: "certifications",
     content: (
       <ul className="list-disc pl-2">
-        <li>The Complete 2024 Web Development Bootcamp - by Angela Yu</li>
-        <li>Google Data Analytics Specialization</li>
+        <li>
+          <a
+            href="https://www.udemy.com/certificate/UC-edccb5f4-850d-4eaa-9fb6-0c4ada81d4e1/"
+            target="blank"
+            rel="noopener noreferrer"
+            title="Click to see certificate"
+          >
+            The Complete 2024 Web Development Bootcamp - by Angela Yu
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.boot.dev/u/juliolouzz"
+            target="blank"
+            rel="noopener noreferrer"
+            title="Click to see certificate"
+          >
+            Boot.dev Backend Developer Course
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.coursera.org/account/accomplishments/specialization/certificate/LTD2ZBRHXDPQ"
+            target="blank"
+            rel="noopener noreferrer"
+            title="Click to see certificate"
+          >
+            Google Data Analytics Specialization
+          </a>
+        </li>
       </ul>
     ),
   },
