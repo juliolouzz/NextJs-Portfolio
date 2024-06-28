@@ -6,7 +6,7 @@ import { motion, useInView } from "framer-motion";
 
 const projectsData = [
   {
-    id: 1,
+    id: 6,
     title: "tabnews Clone",
     description:
       "Implementation of https://www.tabnews.com.br/, to reproduce and learn concepts with curso.dev",
@@ -16,7 +16,7 @@ const projectsData = [
     previewUrl: "https://clone-tabnews-nine-lemon.vercel.app/",
   },
   {
-    id: 2,
+    id: 5,
     title: "Static Site Generator",
     description:
       "This project is a static site generator written in Python. It takes Markdown content and converts it into HTML, copying static assets and applying templates to create a fully functional static website.",
@@ -26,7 +26,7 @@ const projectsData = [
     previewUrl: "https://github.com/juliolouzz/Static-Site-Generator",
   },
   {
-    id: 3,
+    id: 4,
     title: "GreenJet Airlines Bootstrap",
     description:
       "A project made for the National college of Ireland using Bootstrap and JavaScript. It is a responsive website for an airline company. with a few animations and transitions.",
@@ -36,16 +36,17 @@ const projectsData = [
     previewUrl: "https://juliolouzz.github.io/GreenJet-Bootstrap/",
   },
   {
-    id: 4,
-    title: "To be added",
-    description: "description",
-    image: "/images/projects/4.png",
+    id: 3,
+    title: "Maze Solver",
+    description:
+      "This project is a graphical maze generator and solver built using Python's Tkinter library.",
+    image: "/images/projects/maze.gif",
     tag: ["All", "Ongoing"],
-    gitUrl: "/",
-    previewUrl: "/",
+    gitUrl: "https://github.com/juliolouzz/Maze_Solver",
+    previewUrl: "https://github.com/juliolouzz/Maze_Solver",
   },
   {
-    id: 5,
+    id: 2,
     title: "To be added",
     description: "description",
     image: "/images/projects/5.png",
@@ -54,7 +55,7 @@ const projectsData = [
     previewUrl: "/",
   },
   {
-    id: 6,
+    id: 1,
     title: "To be added",
     description: "description",
     image: "/images/projects/6.png",
